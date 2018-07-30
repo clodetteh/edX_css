@@ -1,3 +1,12 @@
+/*Color List:
+- light blue = 00AEEF;
+- dark blue = 1C75BC
+- green = 8DC63F
+- dark green = 009444
+- orange = F7941E
+- dark orange = F15A29
+- brown = 594a42; */
+
 /***************************
 ****************************
 Reset Styles
@@ -39,3 +48,14 @@ Module Styles
 Theme Styles
 ****************************
 ***************************/
+.bg-primary {
+    background: #F7941E;
+}
+
+.bg-secondary {
+    background: #00AEEF;
+}
+
+.bg-tertiary {
+    background: #8DC63F;
+}
