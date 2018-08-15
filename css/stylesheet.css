@@ -78,6 +78,10 @@ Layout Styles
     padding-right: 15px;
 }
 
+.empty-column {
+    min-height: 1px;
+}
+
 
 /***************************
 ****************************
@@ -103,6 +107,11 @@ Theme Styles
     background: #8DC63F;
 }
 
+.bg-footer {
+    background: #574A43;
+    color: #ffffff;
+}
+
 /*MEDIA QUERIES MAYOR 768*/
 
 @media (min-width: 48em) {
@@ -118,8 +127,26 @@ Theme Styles
         width: 66.6666%;
     }
 
+    .col-1-2 {
+        width: 50%;
+    }
+
+    .col-1-4 {
+        width: 25%;
+    }
+
+    .col-1-6 {
+        width: 16.6666%;
+    }
+
     .pull-right-sm {
         float:right;
+    }
+
+    /*ROWS*/
+
+    .line-top {
+        margin-top: 10px;
     }
 }
 
